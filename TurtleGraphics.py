@@ -49,7 +49,7 @@ def welcome_msg():
     welcome.penup()
     welcome.goto(-300, 260)
     welcome.hideturtle()
-    sleep(10)
+    sleep(12)
     welcome.clear()
     
 welcome_msg()
@@ -60,6 +60,8 @@ colours = ["violet", "indigo", "blue", "green", "yellow", "grey", "black", "oran
 shapes = ["turtle", "circle", "arrow", "triangle", "square","classic"]
 
 
+
+    
 
 
 
@@ -148,7 +150,7 @@ garo.onkey(upper_left, 'q')
 garo.onkey(lower_left, 'z')
 garo.onkey(upper_right, 'e')
 garo.onkey(lower_right, 'c')
-garo.onkey(home, 'f')
+garo.onkey(home, 'x')
 
 # Pen up, Pen down, 
 garo.onkey(penup, '1')
