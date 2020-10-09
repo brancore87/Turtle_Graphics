@@ -16,7 +16,7 @@ def welcome_msg():
     welcome.pendown()
     welcome.color("blue","black")
     welcome.stamp()
-    welcome.write("A'chik Computer Programmer Turtle Graphics Program", font=("Arial", 17, "normal"))
+    welcome.write("Brancore Computer Programmer Turtle Graphics Program", font=("Arial", 17, "normal"))
     welcome.fd(550)
     welcome.stamp()
     welcome.penup()
